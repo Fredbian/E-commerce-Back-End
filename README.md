@@ -25,8 +25,21 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+## Installation
+```
+npm i
+```
+
+* Add a .env file to the root folder with the following details
+```
+DB_NAME='ecommerce_db'
+DB_USER='root'
+DB_PW='xxxxxxxx'
+```
+
+
 ## URLs
-* Github: 
+* Github: https://github.com/Fredbian/MONU-FSF-Module-13-Challenge-E-commerce-Back-End 
 * Walkthrough Video: 
 
 
