@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
     if(!category) {
       return res.status(404).json({message: 'Categories are not found!'})
     }
-    // else
+    // else return category data
     res.json(category)
   })
     // handle error
@@ -44,9 +44,9 @@ router.get('/:id', (req, res) => {
   .then(category => {
     // if not found
     if(!category) {
-     return res.status(404).json({message: 'Category is not found!'})
+     return res.status(404).json({message: 'Can not get category by this id!'})
     }
-    // else
+    // else return category data
     res.json(category)
   })
   // handle error
@@ -78,7 +78,7 @@ router.put('/:id', (req, res) => {
     if (!category) {
       return res.status(404).json({message: 'Can not get any category by this id!'})
     }
-    // else
+    // else return category data
     res.json(category)
   })
   // handle error
@@ -97,7 +97,7 @@ router.delete('/:id', (req, res) => {
     if(!category){
       return res.status(404).json({message: 'Can not get any category by this id!'})
     }
-    // else
+    // else return category data
     res.json(category)
   })
   // handle err
