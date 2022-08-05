@@ -30,6 +30,10 @@ THEN I am able to successfully create, update, and delete data in my database
 npm i
 ```
 
+```
+npm run seed
+```
+
 * Add a .env file to the root folder with the following details
 ```
 DB_NAME='ecommerce_db'
