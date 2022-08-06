@@ -49,6 +49,6 @@ npm start
 
 ## URLs
 * Github: https://github.com/Fredbian/MONU-FSF-Module-13-Challenge-E-commerce-Back-End 
-* Walkthrough Video: 
+* Walkthrough Video: https://drive.google.com/file/d/1muULXeUmoZWoJxhb0HFYNA0edSZXu9lb/view 
 
 
