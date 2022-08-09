@@ -74,7 +74,7 @@ router.put('/:id', (req, res) => {
       if (!tag) {
         return res.status(404).json({ message: 'Can not get tag by this id!' })
       }
-      // else return tag data
+      // else return number of tag updated
       res.json(tag)
     })
     // handle err
@@ -92,7 +92,7 @@ router.delete('/:id', (req, res) => {
     if(!tag) {
       return res.status(404).json({message: 'Can not get tag by this id!'})
     }
-    // else return tag data
+    // else return number of tag deleted
     res.json(tag)
   })
   // handle err

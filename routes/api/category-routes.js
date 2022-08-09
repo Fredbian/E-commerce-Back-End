@@ -78,7 +78,7 @@ router.put('/:id', (req, res) => {
     if (!category) {
       return res.status(404).json({message: 'Can not get any category by this id!'})
     }
-    // else return category data
+    // else return numbers of category updated
     res.json(category)
   })
   // handle error
@@ -97,7 +97,7 @@ router.delete('/:id', (req, res) => {
     if(!category){
       return res.status(404).json({message: 'Can not get any category by this id!'})
     }
-    // else return category data
+    // else return numbers of category deleted
     res.json(category)
   })
   // handle err
